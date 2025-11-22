@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# 💉 MedNote.IA – Médico Copilot (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface web do projeto **Médico Copilot**, feita em **React + TypeScript**, responsável por capturar áudio, exibir a transcrição da consulta e mostrar o diagnóstico retornado pelo backend (doenças prováveis, exames e medicamentos).  
+Inclui histórico local, geração de PDF e interface multilíngue.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tecnologias
 
-## React Compiler
+- React + Vite + TypeScript  
+- TailwindCSS  
+- Framer Motion  
+- LocalStorage  
+- html2canvas + jsPDF  
+- Axios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Rodando localmente
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+```bash
+# 1. Clone o repositório
+git clone https://github.com/rodolfossilvadev/medic-copilot-frontend.git
+cd medic-copilot-frontend
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# 2. Instale as dependências
+npm install
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# 3. Configure o .env
+cp .env.example .env
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# 4. Execute o projeto
+npm run dev
+# App disponível em http://localhost:5173
+🔐 Variáveis de ambiente
+env
+Copiar código
+VITE_API_BASE_URL=http://localhost:10000
+✨ Funcionalidades principais
+🎙️ Captura de áudio
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🗣️ Transcrição de consulta
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+🧠 Diagnóstico gerado por IA
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+📚 Histórico local de consultas
+
+📄 Geração de PDF
+
+🌎 Multilíngue (PT/EN)
+
+Este repositório representa o frontend do projeto MedNote.IA e se conecta ao backend disponível em:
+https://github.com/rodolfossilvadev/medico-copilot-backend
