@@ -165,7 +165,7 @@ const Home = () => {
           </label>
 
           <textarea
-            className="border-primary-100 text-text-300 focus:ring-primary-400 min-h-[150px] w-full rounded-2xl border bg-white/60 px-4 py-3 text-sm outline-none focus:ring-1"
+            className="border-primary-100 text-text-300 focus:ring-primary-400 min-h-26 w-full rounded-2xl border bg-white/60 px-4 py-2 text-sm outline-none focus:ring-1 sm:min-h-38"
             value={transcript}
             onChange={(e) => setTranscript(e.target.value)}
             placeholder={t("consultation_placeholder")}
