@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="/mnt/data/medcopilot-cel.png" alt="MedCopilot Mobile" width="45%" />
-  <img src="/mnt/data/medcopilot-pc.png" alt="MedCopilot Desktop" width="45%" />
+  <img src="https://github.com/rodolfossilvadev/medic-copilot-frontend/blob/master/assets/medcopilot-cel.png?raw=true" width="45%" />
+  <img src="https://github.com/rodolfossilvadev/medic-copilot-frontend/blob/master/assets/medcopilot-pc.png?raw=true" width="45%" />
 </p>
 
 # 💉 Médico Copilot (Frontend)
