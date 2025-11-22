@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://github.com/rodolfossilvadev/medic-copilot-frontend/blob/mestre/src/ativos/medcopilot-cel.png?raw=true" width="45%" />
+  <img src="https://github.com/rodolfossilvadev/medic-copilot-frontend/blob/mestre/src/ativos/medcopilot-pc.png?raw=true" width="45%" />
+</p>
+
+
 # 💉 Médico Copilot (Frontend)
 
 Interface web do projeto **Médico Copilot**, feita em **React + TypeScript**, suas funções:
