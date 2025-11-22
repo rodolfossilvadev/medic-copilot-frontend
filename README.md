@@ -1,7 +1,8 @@
 <p align="center">
-  <img src="https://github.com/rodolfossilvadev/medic-copilot-frontend/blob/master/src/ativos/cel.png?raw=true" width="45%" />
-  <img src="https://github.com/rodolfossilvadev/medic-copilot-frontend/blob/master/src/ativos/pc.png?raw=true" width="45%" />
+  <img src="https://github.com/rodolfossilvadev/medic-copilot-frontend/blob/master/public/medcopilot-cel.png?raw=true" width="45%" />
+  <img src="https://github.com/rodolfossilvadev/medic-copilot-frontend/blob/master/src/assets/pc.png?raw=true" width="45%" />
 </p>
+
 
 
 # 💉 Médico Copilot (Frontend)
