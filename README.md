@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="/mnt/data/medcopilot-cel.png" alt="MedCopilot Mobile" width="45%" />
+  <img src="/mnt/data/medcopilot-pc.png" alt="MedCopilot Desktop" width="45%" />
+</p>
+
 # 💉 Médico Copilot (Frontend)
 
 Interface web do projeto **Médico Copilot**, feita em **React + TypeScript**, suas funções:
