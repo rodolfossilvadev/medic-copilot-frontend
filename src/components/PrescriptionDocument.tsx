@@ -35,7 +35,9 @@ export const PrescriptionDocument = ({ consultation }: PrescriptionDocumentProps
         </header>
 
         {/* Título */}
-        <h2 className="pdf-title">{lang === "pt" ? "PRÉ-MÉDICA" : "MEDICAL PREVIEW"}</h2>
+        <h2 className="pdf-title">
+          {lang === "pt" ? "PRESCRIÇÃO MÉDICA" : "MEDICAL PREVIEW"}
+        </h2>
 
         {/* Paciente + Data */}
         <div className="pdf-row">
