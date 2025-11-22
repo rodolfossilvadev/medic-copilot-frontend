@@ -1,0 +1,181 @@
+/* Ajustes globais do documento PDF */
+#pdf-document,
+#pdf-document * {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, sans-serif;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* Área principal do PDF */
+#pdf-document {
+  width: 210mm;
+  min-height: 297mm;
+  background: #ffffff;
+  padding: 22mm;
+  margin: 0 auto;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  color: #111827;
+  overflow: hidden;
+}
+
+/* Header */
+.pdf-header {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+/* Logo */
+.pdf-logo {
+  margin-top: -20px;
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+/* Infos do médico */
+.pdf-header-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.pdf-doctor-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.pdf-doctor-specialty {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #0f5faf;
+  margin-top: -4px;
+}
+
+.pdf-doctor-meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+/* Título do documento */
+.pdf-title {
+  margin: 20px 0 28px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+/* Linhas de paciente + data */
+.pdf-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  margin-bottom: 32px;
+}
+
+.pdf-label {
+  font-weight: 600;
+  color: #6b7280;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.pdf-value {
+  font-weight: 600;
+}
+
+/* Seções */
+.pdf-section {
+  margin-bottom: 32px;
+}
+
+.pdf-section-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-weight: 600;
+  color: #9ca3af;
+  margin-bottom: 12px;
+}
+
+/* Item de medicamento */
+.pdf-med-item {
+  border-left: 3px solid #0f5faf;
+  padding-left: 14px;
+  margin-bottom: 22px;
+}
+
+.pdf-med-index {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #0f5faf;
+}
+
+.pdf-med-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.pdf-med-usage {
+  font-size: 0.95rem;
+  color: #374151;
+  margin-top: 2px;
+}
+
+/* Texto de observações */
+.pdf-observations-text {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+/* Rodapé */
+.pdf-footer {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.pdf-footer-line {
+  height: 1px;
+  background: #e5e7eb;
+  max-width: 260px;
+  margin: 0 auto 8px auto;
+}
+
+.pdf-footer-name {
+  font-weight: 700;
+}
+
+.pdf-footer-crm {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+/* Wrappers */
+.pdf-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.prescription-page-wrapper {
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ajustes mobile */
+@media (max-width: 640px) {
+  .prescription-page-wrapper {
+    padding: 0 20px;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+  }
+}
