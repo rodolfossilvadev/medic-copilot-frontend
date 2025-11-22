@@ -8,7 +8,8 @@ Interface web do projeto **Médico Copilot**, feita em **React + TypeScript**, s
 - 📄 Gerar consulta detalhada e receita em PDF
 - 📚 Histórico de consultas salvas localmente
 - 🌎 Interface multilíngue (PT/EN)
-
+- 🩺 Personalização por especialidade médica
+- 🛜 Projeto publicado (deploy completo)
 ---
 
 ## ⚙️ Tecnologias
