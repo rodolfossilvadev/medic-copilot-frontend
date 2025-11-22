@@ -1,6 +1,6 @@
 // Base da API (usa .env ou localhost como fallback)
 const API_BASE_URL: string =
-  import.meta.env.VITE_API_BASE_URL ?? "https://medico-copilot-backend.onrender.com";
+  import.meta.env.VITE_API_BASE_URL || "https://medico-copilot-backend.onrender.com";
 
 // Função genérica para chamadas POST JSON
 export async function postJson<TResponse, TBody>(
