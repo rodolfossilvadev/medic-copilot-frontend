@@ -44,6 +44,8 @@ env
 Copiar código
 VITE_API_BASE_URL=http://localhost:10000
 
+##
+
 
 Repositório do **Back-end**
 <a href="https://github.com/rodolfossilvadev/medico-copilot-backend" target="_blank">Clique aqui</a> para acessar o repositório
