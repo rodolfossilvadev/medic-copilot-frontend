@@ -1,7 +1,13 @@
-# 💉 MedNote.IA – Médico Copilot (Frontend)
+# 💉 Médico Copilot (Frontend)
 
-Interface web do projeto **Médico Copilot**, feita em **React + TypeScript**, responsável por capturar áudio, exibir a transcrição da consulta e mostrar o diagnóstico retornado pelo backend (doenças prováveis, exames e medicamentos).  
-Inclui histórico local, geração de PDF e interface multilíngue.
+Interface web do projeto **Médico Copilot**, feita em **React + TypeScript**, suas funções:
+
+- 🎙️ Capturar áudio do microfone
+- 🗣️ Exibir transcrição da consulta
+- 🧠 Enviar o texto para o backend e receber o diagnóstico (doenças, exames, medicamentos)
+- 📄 Gerar consulta detalhada e receita em PDF
+- 📚 Histórico de consultas salvas localmente
+- 🌎 Interface multilíngue (PT/EN)
 
 ---
 
@@ -10,9 +16,10 @@ Inclui histórico local, geração de PDF e interface multilíngue.
 - React + Vite + TypeScript  
 - TailwindCSS  
 - Framer Motion  
-- LocalStorage  
-- html2canvas + jsPDF  
-- Axios
+- LocalStorage (histórico)  
+- html2canvas + jsPDF (PDF)  
+- Contexto multilíngue simples (PT/EN)  
+- Axios para comunicação com o backend  
 
 ---
 
@@ -36,18 +43,7 @@ npm run dev
 env
 Copiar código
 VITE_API_BASE_URL=http://localhost:10000
-✨ Funcionalidades principais
-🎙️ Captura de áudio
 
-🗣️ Transcrição de consulta
 
-🧠 Diagnóstico gerado por IA
-
-📚 Histórico local de consultas
-
-📄 Geração de PDF
-
-🌎 Multilíngue (PT/EN)
-
-Este repositório representa o frontend do projeto MedNote.IA e se conecta ao backend disponível em:
-https://github.com/rodolfossilvadev/medico-copilot-backend
+Repositório do **Back-end**
+<a href="https://github.com/rodolfossilvadev/medico-copilot-backend" target="_blank">Clique aqui</a> para acessar o repositório
