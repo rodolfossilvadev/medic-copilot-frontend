@@ -3,7 +3,7 @@
 Interface web do projeto **Médico Copilot**, feita em **React + TypeScript**, suas funções:
 
 <p align="center">
-  <img src="https://github.com/rodolfossilvadev/medic-copilot-frontend/blob/master/public/medcopilot-cel.png?raw=true" width="45%" />
+  <img src="https://github.com/rodolfossilvadev/medic-copilot-frontend/blob/master/public/medcopilot-cel.png?raw=true" width="200px" />
   <img src="https://github.com/rodolfossilvadev/medic-copilot-frontend/blob/master/src/assets/pc.png?raw=true" width="45%" />
 </p>
 
