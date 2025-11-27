@@ -28,7 +28,6 @@ Interface web do projeto **Médico Copilot**, feita em **React + TypeScript**, s
 - Axios para comunicação com o backend  
 
 ## 🌐 Projeto em Produção
- Frontend:
 <a href="https://medcopilot-omega.vercel.app/" target="_blank">MedCopilot<a/>
 
 <br/>
